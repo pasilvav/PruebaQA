@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite pruebas de regresión" verbose="1" >
+    <test name="Casos de prueba" >
+        <classes>
+
+            <class name="Tests.Tests_BuscarEditorial" />
+            <class name="Tests.Tests_EditarDatosPersonales" />
+            <class name="Tests.Tests_EditarDatosFacturacion" />
+            <class name="Tests.Tests_AgregarListaDeseos" />
+            <class name="Tests.Tests_AgregarSuscripcion" />
+            <class name="Tests.Tests_CentroDeSoporte" />
+            <class name="Tests.Tests_FinalizarCompra" />
+            <class name="Tests.Tests_SeguimientoPedidos" />
+
+
+        </classes>
+    </test>
+
+</suite>
